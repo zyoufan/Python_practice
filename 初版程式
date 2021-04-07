@@ -1,0 +1,4130 @@
+import turtle as t
+import math as m
+t.showturtle
+t.penup()
+t.goto(0,-100)
+t.pendown()
+t.circle(100)
+def find_period(n, d):
+    z = x = n * 9
+    k = 1
+    while z % d:
+        z = z * 10 + x
+        k += 1
+
+    digits = f"{z // d:0{k}}"
+    return k, digits
+
+a = int(input())
+
+period, digits = find_period(1, a)
+s = str(digits)
+s = ', '.join(s)
+print('period:', period, 'digits:', s)
+import re
+def main():
+  fun2()
+
+def fun2():
+  c="abcdefghijklmnopqrstuvwxyz"
+  temp=''
+  s_list=s.split(",")
+  num=len(s_list)
+  for i in range(0,num):
+    if s_list[i]==' ':
+      temp+=' '
+    else:
+      result=c[int(s_list[i])-1]
+      temp+=result
+    E =("%s"%temp)
+    E =(E+E[0])
+  print(E)
+  t.pensize(1)
+  c = (E.count('ab'))
+  c1 = (E.count('ba'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  
+  c = (E.count('ac'))
+  c1 = (E.count('ca'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  c = (E.count('ad'))
+  c1 = (E.count('da'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  c = (E.count('ae'))
+  c1 = (E.count('ea'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  c = (E.count('af'))
+  c1 = (E.count('fa'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  c = (E.count('ag'))
+  c1 = (E.count('ga'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  c = (E.count('ai'))
+  c1 = (E.count('ia'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi/5),100*m.sin(m.pi/5))
+  c = (E.count('ah'))
+  c1 = (E.count('ha'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  c = (E.count('az'))
+  c1 = (E.count('za'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(0),100*m.sin(0))
+  c = (E.count('bc'))
+  c1 = (E.count('cb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  c = (E.count('bd'))
+  c1 = (E.count('db'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  c = (E.count('be'))
+  c1 = (E.count('eb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  c = (E.count('bf'))
+  c1 = (E.count('fb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  c = (E.count('bg'))
+  c1 = (E.count('gb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  c = (E.count('bh'))
+  c1 = (E.count('hb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  c = (E.count('bi'))
+  c1 = (E.count('ib'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi/5),100*m.sin(m.pi/5))
+  c = (E.count('bz'))
+  c1 = (E.count('zb'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(0),100*m.sin(0))
+  c = (E.count('cd'))
+  c1 = (E.count('dc'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  c = (E.count('ec'))
+  c1 = (E.count('ce'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  c = (E.count('fc'))
+  c1 = (E.count('cf'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  c = (E.count('gc'))
+  c1 = (E.count('cg'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  c = (E.count('hc'))
+  c1 = (E.count('ch'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  c = (E.count('ic'))
+  c1 = (E.count('ci'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi/5),100*m.sin(m.pi/5))
+  c = (E.count('zc'))
+  c1 = (E.count('cz'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(0),100*m.sin(0))
+  c = (E.count('de'))
+  c1 = (E.count('ed'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  c = (E.count('df'))
+  c1 = (E.count('fd'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  c = (E.count('dg'))
+  c1 = (E.count('gd'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  c = (E.count('dh'))
+  c1 = (E.count('hd'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  c = (E.count('di'))
+  c1 = (E.count('id'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi/5),100*m.sin(m.pi/5))
+  c = (E.count('dz'))
+  c1 = (E.count('zd'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(0),100*m.sin(0))
+  c = (E.count('ef'))
+  c1 = (E.count('fe'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+
+  c = (E.count('eg'))
+  c1 = (E.count('ge'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+
+  c = (E.count('eh'))
+  c1 = (E.count('he'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+
+  c = (E.count('ei'))
+  c1 = (E.count('ie'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+
+  c = (E.count('ez'))
+  c1 = (E.count('ze'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*0),100*m.sin(m.pi*0))
+
+  c = (E.count('fg'))
+  c1 = (E.count('gf'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+
+  c = (E.count('fh'))
+  c1 = (E.count('hf'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+ 
+  c = (E.count('fi'))
+  c1 = (E.count('if'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+
+  c = (E.count('fz'))
+  c1 = (E.count('zf'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*0),100*m.sin(m.pi*0))
+
+  c = (E.count('gh'))
+  c1 = (E.count('hg'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+
+  c = (E.count('gi'))
+  c1 = (E.count('ig'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+
+  c = (E.count('gz'))
+  c1 = (E.count('zg'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*0),100*m.sin(m.pi*0))
+
+  c = (E.count('hi'))
+  c1 = (E.count('ih'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+
+  c = (E.count('hz'))
+  c1 = (E.count('zh'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*0),100*m.sin(m.pi*0))
+
+  
+  c = (E.count('iz'))
+  c1 = (E.count('zi'))
+  c = c + c1
+  if c==1:
+    t.color('black')
+  else:  
+    if c==2:
+      t.color('red')
+    else:
+      if c==3:
+        t.color('darkorange')
+      else:
+        if c==4:
+          t.color('yellow')
+        else:
+          if c==5:
+            t.color('gold')
+          else:
+            if c==6:
+              t.color('palegreen')
+            else:
+              if c==7:
+                t.color('seagreen')
+              else:
+                if c==8:
+                  t.color('deepskyblue')
+                else:
+                  if c==9:
+                    t.color('mediumblue')
+                  else:
+                    if c==10:
+                      t.color('mediumorchid')
+                    else:
+                      if c==11:
+                        t.color('purple')
+                      else:
+                        if c==12:
+                          t.color('hotpink')
+                        else:
+                          if c==13:
+                            t.color('darksalmon')
+                          else:
+                            if c==14:
+                              t.color('lightgoldenrodyellow')
+                            else:
+                              if c==15:
+                                t.color('darkgoldenrod')
+                              else:
+                                if c==16:
+                                  t.color('saddlebrown')
+                                else:
+                                  if c==17:
+                                      t.color('slatgray')
+                                  else:
+                                    if c==18:
+                                      t.color('silver')
+                                    else:
+                                      if c==19:
+                                        t.color('aqua')
+                                      else:
+                                        if c==20:
+                                          t.color('lightsage')
+                                        else:
+                                          if c==21:
+                                            t.color('firebrick')
+                                          else:
+                                            if c==22:
+                                              t.color('navy')
+
+  t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+  t.pendown()
+  if c==0:
+      t.penup()
+  t.goto(100*m.cos(m.pi*0),100*m.sin(m.pi*0))
+  t.penup()
+  
+  c = (E.count('aa'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*9/5),100*m.sin(m.pi*9/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('bb'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*8/5),100*m.sin(m.pi*8/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('cc'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*7/5),100*m.sin(m.pi*7/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('dd'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*6/5),100*m.sin(m.pi*6/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('ee'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*5/5),100*m.sin(m.pi*5/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('ff'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*4/5),100*m.sin(m.pi*4/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('gg'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*3/5),100*m.sin(m.pi*3/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('hh'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*2/5),100*m.sin(m.pi*2/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('ii'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(m.pi*1/5),100*m.sin(m.pi*1/5))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  c = (E.count('zz'))
+  if c==0:
+    color=('black')
+  else:  
+    if c==1:
+      color=('red')
+    else:
+      if c==2:
+        color=('darkorange')
+      else:
+        if c==3:
+          color=('yellow')
+        else:
+          if c==4:
+            color=('gold')
+          else:
+            if c==5:
+              color=('palegreen')
+            else:
+              if c==6:
+                color=('seagreen')
+              else:
+                if c==7:
+                  color=('deepskyblue')
+                else:
+                  if c==8:
+                    color=('mediumblue')
+                  else:
+                    if c==9:
+                      color=('mediumorchid')
+                    else:
+                      if c==10:
+                        color=('purple')
+                      else:
+                        if c==11:
+                          color=('hotpink')
+                        else:
+                          if c==12:
+                            color=('darksalmon')
+                          else:
+                            if c==13:
+                              color=('lightgoldenrodyellow')
+                            else:
+                              if c==14:
+                                color=('darkgoldenrod')
+                              else:
+                                if c==15:
+                                  color=('saddlebrown')
+                                else:
+                                  if c==16:
+                                      color=('slatgray')
+                                  else:
+                                    if c==17:
+                                      color=('silver')
+                                    else:
+                                      if c==18:
+                                        color=('aqua')
+                                      else:
+                                        if c==19:
+                                          color=('lightsage')
+                                        else:
+                                          if c==20:
+                                            color=('firebrick')
+                                          else:
+                                            if c==21:
+                                              color=('navy')
+  t.penup()
+  t.goto(100*m.cos(0),100*m.sin(0))
+  t.pendown()
+  t.setheading(-90)
+  t.dot(8,color)
+  t.hideturtle()
+if __name__ == '__main__':
+  main()
+
+  
+
+
+    
+
+    
+    
+
+
+
+
