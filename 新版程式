@@ -1,0 +1,165 @@
+import turtle as t
+import math as m
+t.showturtle
+t.penup()
+t.goto(0,-100)
+t.pendown()
+t.circle(100)
+def find_period(n, d):
+    z = x = n * 9
+    k = 1
+    while z % d:
+        z = z * 10 + x
+        k += 1
+
+    digits = f"{z // d:0{k}}"
+    return k, digits
+
+a = int(input())
+
+period, digits = find_period(1, a)
+s = str(digits)
+print('循環節長度:', period, '循環節:', s)
+s = s + s[0]
+print(s)
+a=0
+b=0
+變數1=0
+變數2=0
+哈哈哈=[]
+哈哈哈哈=[]
+哈哈哈哈哈=s
+哈哈哈哈哈哈=[]
+while not 變數1==10:
+    變數1在哈哈裡的編號=0
+    while not 變數1在哈哈裡的編號==-1:
+        變數1在哈哈裡的編號=s.find(str(變數1))
+        哈哈哈.append(變數1在哈哈裡的編號)
+        s=s.replace(str(變數1),'a',1)
+    變數2 = 變數1+1
+    while not 變數2==10:
+        b=0
+        變數2在哈哈裡的編號=0
+        while not 變數2在哈哈裡的編號==-1:
+            a=-1
+            重複次數=0
+            while not 重複次數==len(哈哈哈):
+                a = a + 1
+                變數2在哈哈裡的編號 = s.find(str(變數2))
+                if abs(變數2在哈哈裡的編號-哈哈哈[a])==1:
+                    b=b+1
+                重複次數=重複次數+1    
+            s=s.replace(str(變數2),'b',1)
+        哈哈哈哈.append(b)
+        變數2=變數2+1
+        c=0
+    d = 0
+    while not d == len(s):
+        s = 哈哈哈哈哈
+        d = d + 1
+    哈哈哈=[]
+    變數1=變數1+1
+d=int(s[0])
+e=d
+f=d
+d=10-d
+g=d
+重複次數=0
+if e != 0:
+    while not 重複次數==f-1:
+        d = d + e - 1
+        e = e - 1
+        重複次數=重複次數+1
+    while not g-1==0:
+        哈哈哈哈[d]=哈哈哈哈[d]-1
+        d = d + 1
+        g=g-1
+    哈哈哈哈[0]=哈哈哈哈[0]-1
+else:
+    while not g-1==0:
+        哈哈哈哈[d-2]=哈哈哈哈[d-2]-1
+        d = d - 1
+        g=g-1
+        哈哈哈 = []
+變數1=0
+重複次數=0
+哈哈哈哈哈哈=[]
+while not 重複次數==10:
+    變數1在哈哈裡的編號=0
+    重複次數2=0
+    while not 變數1在哈哈裡的編號==-1:
+        變數1在哈哈裡的編號=s.find(str(變數1))
+        哈哈哈.append(變數1在哈哈裡的編號)
+        s=s.replace(str(變數1),'a',1)
+    a=1
+    b=0
+    while not 重複次數2==len(哈哈哈)-1:
+        if (哈哈哈[a]-哈哈哈[a-1]) == 1:
+            b = b + 1
+        a = a + 1
+        重複次數2=重複次數2+1
+    哈哈哈哈哈哈.append(b)
+    哈哈哈=[]
+    變數1=變數1+1
+    重複次數=重複次數+1
+h=min(哈哈哈哈)
+i=min(哈哈哈哈哈哈)
+重複次數=0
+a=0
+if h != 0:
+    h = h - 1
+while not 重複次數==45:
+    哈哈哈哈[a]=哈哈哈哈[a]-h
+    a=a+1
+    重複次數=重複次數+1
+重複次數=0
+a=0
+while not 重複次數==10:
+    哈哈哈哈哈哈[a]=哈哈哈哈哈哈[a]-i
+    a=a+1
+    重複次數=重複次數+1
+print('線降級後的重複次數:',哈哈哈哈)
+print('點降級後的重複次數:',哈哈哈哈哈哈)
+a=0
+b=0
+aa=哈哈哈哈
+c=0
+d=0
+cc=['black','red','darkorange','yellow','gold','palegreen','seagreen','deepskyblue','mediumblue','mediumorchid','purple','hotpink','darksalmon','slategrey','darkgoldenrod','saddlebrown','slategray','silver','aqua','darkslategray','firebrick','navy']
+while not a==10:
+    b=a+1
+    while not b==10:
+        c = aa[int(d)]
+        t.color(cc[(c-1)])      
+        d = d + 1
+        e = 10 - b
+        f = 10 - a
+        t.penup()
+        if a==0:
+            t.goto(100*m.cos(m.pi*a/5),100*m.sin(m.pi*a/5))
+        else:
+            t.goto(100*m.cos(m.pi*f/5),100*m.sin(m.pi*f/5))
+        t.pendown()
+        if c==0:
+            t.penup()
+        t.goto(100*m.cos(m.pi*(e/5)),100*m.sin(m.pi*e/5))
+        b = b + 1
+    a = a + 1
+a=0
+d = 0
+while not d==10:
+    c = 哈哈哈哈哈哈[d]
+    color=(cc[(c)])
+    t.penup()
+    if d==0:
+        t.goto(100*m.cos(m.pi*0/5),100*m.sin(m.pi*0/5))
+    else:
+        t.goto(100*m.cos(m.pi*(10-d)/5),100*m.sin(m.pi*(10-d)/5))
+    t.pendown()
+    t.setheading(-90)
+    t.dot(8,color)
+    d=d+1
+
+    
+
+
